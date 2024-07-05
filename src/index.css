@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (min-width:992px) {    
+  .vertical-nav {
+      position: fixed;
+      text-align: center;
+      top: 56px;
+      left: 0;
+      width: 15rem;
+      height: 100%;
+      background-color: #28a745;
+      overflow-y: auto;
+      padding-top: 30px
+    }
+}
